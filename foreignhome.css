@@ -1,0 +1,52 @@
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
+.wrapper{
+    margin-top: 10%;
+    margin-bottom: 0%;
+    margin-left:13%;
+}
+
+h1 {
+    font-family: "baskerville", georgia, "times new roman", times, serif;
+    font-size: 65px;
+    font-style: italic;
+    font-weight: 200;
+    margin-left: 6%;
+    margin-bottom: 4%;
+    margin-top: 8%;
+}
+
+h2 {
+    font-family: times, serif;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 200;
+    margin-left: 5%;
+    color: #000000;
+}
+
+a{
+    color: #000000;
+}
+
+a:hover {
+    background-color: #fffd96;
+    color: #000000;
+}
+
+
+.col-md-10 {
+    width: 570px;
+}
+
+.top-buffer {
+    margin-top: 15px;
+}
+
+.small-top-buffer{
+    margin-top: 6px;
+}
+.side-buffer{
+    margin-left: 35px;
+    margin-right: 5px;
+}

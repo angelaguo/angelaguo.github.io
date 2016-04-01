@@ -1,0 +1,188 @@
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
+.wrapper{
+    margin-top: 7%;
+    margin-bottom: 0%;
+    margin-left:13%;
+}
+
+h2 {
+    font-family: "desdemona", "nyt-cheltenham", georgia, "times new roman", times, serif;
+    font-size: 65px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.col-md-10 {
+    width: 570px;
+}
+
+.top-buffer {
+    margin-top: 15px;
+}
+
+.small-top-buffer{
+    margin-top: 6px;
+}
+.side-buffer{
+    margin-left: 35px;
+    margin-right: 5px;
+}
+
+.btn-sm {
+    padding: 3px 2px;
+    font-size: 14px;
+    text-align: center; 
+    background-color: #C2C2C2;
+    color: #FFFFFF;
+    font-family: "helvetica-light",helvetica,arial,sans-serif;
+    font-weight: lighter;
+    width: 100px;
+    height: 28px;
+}
+
+.navbar-btn{
+    border-color:#FFFFFF;
+}
+.btn-sm:hover{
+    background-color: #FF0090;
+    color: #FFFFFF;
+}
+
+.form-control {
+    border-color: #EAB5FF;
+}
+.form-control:focus {
+  border-color: #00F2FF;
+  box-shadow: none;
+}
+
+.btn.active{
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    color:#96002D;
+    font-style: italic;
+    background-color: #FFFFFF;
+    border-color:#FFFFFF;
+}
+
+.btn.active:hover{
+    color:#000000;
+    background-color: #FFFFFF;
+    border-color:#FFFFFF;
+}
+
+.navbar-initial {
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.navbar-right{
+    margin-right: 20px;
+}
+
+.navbar-default{
+    background-color:#E8EBEB;
+}
+
+.navbar-btn{
+    height:29px;
+    text-align: center;
+    background-color: #F8F8F8;
+    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+}
+
+.col-sm-12 input[type="form_input_top"] {
+    width: 450px;
+}
+
+textarea {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.btn-nav {
+    background-color: #A6B1B3;
+    border-color: #A6B1B3;
+    color: #F7F7F7;
+    font-size: 15px;
+    vertical-align: middle;
+    font-family:"helvetica-light", "arial", sans-serif;
+    border-radius:0px;
+}
+
+.btn-nav:hover{
+    background-color:#5F6161;
+    border-color:#5F6161;
+    color: #FFFFFF;
+}
+
+.navbar-brand{
+    font-family: "nyt-cheltenham",georgia,"times new roman",times,serif;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    margin-left: 18px;
+    margin-top: 5px;
+    /*-webkit-text-stroke: 1px black;*/
+}
+
+.navbar-default .navbar-brand {
+    color: #8F8F8F;
+}
+
+.home-btn{
+    background-color: #FFFFFF;
+    font-family: "baskerville-old-face",baskerville,arial,sans-serif;
+    font-weight:500;
+    font-style: bold;
+    color: #FC037F;
+    font-size:17px;
+}
+
+.home-btn:hover {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+a{
+    margin-top: 2px;
+}
+
+a:active{
+    background-color: #FFFFFF;
+}
+
+a.about-one:hover {
+    background-color: #FFFFFF;
+}
+.second-btn {
+    background-color: #E8EBEB;
+    color: #474647;
+    font-family: "avenir",baskerville,serif;
+    border-color: #E3E8E8;
+    font-size:17px;
+    font-weight: 200;
+}
+
+.second-btn:hover{
+    border-color:#E3E8E8;
+    font-style: italic;
+}
+
+#submit-bulk {
+    margin-left: 18px;
+}
+
+img {
+    height: 120px;
+}
+
+.control-label{
+    font-family: "helvetica-light", "helvetica", "arial";
+    font-size: 14px;
+    font-variant: light;
+}
