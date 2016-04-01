@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Trilingual Dictionary </title>
+
+<!-- Latest compiled and minified CSS -->
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="dictionary.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="dictionaries.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-initial view-one">
+      <div class="container-fluid">
+          <ul class="nav navbar-nav navbar-middle"> 
+
+            <li><a href='../foreignhome.html' class="nav-element home-btn about-one" > Home </a></li>
+        
+            <li><button id="wushu" type="Wushu" onclick="showWushuDict()" class="btn btn-default navbar-btn home-btn">Wushu</button></li>
+            <li><button id="puppetry" type="Puppetry" onclick="showPuppetDict()" class="active btn btn-default navbar-btn home-btn">Puppetry</button></li>
+            <li><button id="cs" type="cs" onclick="showCSDict()" class="btn btn-default navbar-btn home-btn">Computer Science</button></li>
+           
+          </ul>
+      </div>
+    </nav>
+
+    <img class="cs hidden" src="trilingualdict_home.jpg" alt="home" style="width:1469;height:1134px;">
+    <img class="wushu hidden" src="trilingualdict_wushu.jpg" alt="wushu" style="width:1469;height:1134px;">
+    <img class="puppetry" src="trilingualdict_puppetry.jpg" alt="puppetry" style="width:1469;height:1134px;">
+
+
+
+</body>
+</html>
