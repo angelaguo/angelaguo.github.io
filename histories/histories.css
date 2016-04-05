@@ -41,6 +41,11 @@ h2 {
     height: 28px;
 }
 
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .navbar-btn{
     border-color:#FFFFFF;
 }
