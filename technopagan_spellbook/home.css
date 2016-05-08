@@ -1,0 +1,117 @@
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
+.wrapper{
+    margin-top: 7%;
+    margin-bottom: 0%;
+    margin-left:13%;
+}
+
+body {
+    background-color: #000000;
+}
+
+h2 {
+    font-family: "desdemona", "nyt-cheltenham", georgia, "times new roman", times, serif;
+    font-size: 65px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.col-md-10 {
+    width: 570px;
+}
+
+.top-buffer {
+    margin-top: 15px;
+}
+
+.small-top-buffer{
+    margin-top: 6px;
+}
+.side-buffer{
+    margin-left: 35px;
+    margin-right: 5px;
+}
+
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.navbar-btn{
+    border-color:#FFFFFF;
+}
+.btn-sm:hover{
+    background-color: #FF0090;
+    color: #FFFFFF;
+}
+
+.form-control {
+    border-color: #EAB5FF;
+}
+.form-control:focus {
+  border-color: #00F2FF;
+  box-shadow: none;
+}
+
+.btn.active{
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    color:#96002D;
+    font-style: italic;
+    background-color: #FFFFFF;
+    border-color:#FFFFFF;
+}
+
+.btn.active:hover{
+    color:#000000;
+    background-color: #FFFFFF;
+    border-color:#FFFFFF;
+}
+
+
+textarea {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+
+a{
+    margin-top: 2px;
+}
+
+a:active{
+    background-color: #FFFFFF;
+}
+
+a.about-one:hover {
+    background-color: #FFFFFF;
+}
+.second-btn {
+    background-color: #E8EBEB;
+    color: #474647;
+    font-family: "avenir",baskerville,serif;
+    border-color: #E3E8E8;
+    font-size:17px;
+    font-weight: 200;
+}
+
+.second-btn:hover{
+    border-color:#E3E8E8;
+    font-style: italic;
+}
+
+#submit-bulk {
+    margin-left: 18px;
+}
+
+img {
+    height: 120px;
+}
+
+.control-label{
+    font-family: "helvetica-light", "helvetica", "arial";
+    font-size: 14px;
+    font-variant: light;
+}
