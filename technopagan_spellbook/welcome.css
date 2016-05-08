@@ -1,0 +1,28 @@
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
+.wrapper{
+    margin-top: 7%;
+    margin-bottom: 0%;
+    margin-left:13%;
+}
+
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+h2 {
+    font-family: "desdemona", "nyt-cheltenham", georgia, "times new roman", times, serif;
+    font-size: 65px;
+    font-style: italic;
+    font-weight: 200;
+}
+
