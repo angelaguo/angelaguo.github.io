@@ -8,7 +8,7 @@
             body {
                 font-family: Monospace;
                 background-color: #000;
-                color: #fff;
+                color: #000;
                 margin: 0px;
                 overflow: hidden;
             }
@@ -25,6 +25,17 @@
     </head>
     <body>
 
+        <div id="info">
+        <a href="http://threejs.org" target="_blank">three.js</a> - procedural 3D text by <a href="http://www.lab4games.net/zz85/blog" target="_blank">zz85</a> &amp; alteredq
+        <br/>type to enter new text, drag to spin the text
+        <br/><span class="button" id="color">change color</span>,
+            <span class="button" id="font">change font</span>,
+            <span class="button" id="weight">change weight</span>,
+            <span class="button" id="bevel">change bevel</span>
+            <a id="permalink" href="#">permalink</a>
+        </div>
+
+
         <script src="../three.js-master/build/three.js"></script>
         <script src="../three.js-master/examples/js/utils/GeometryUtils.js"></script>
 
@@ -38,7 +49,7 @@
             var camera, cameraTarget, scene, renderer;
             var group, textMesh1, textMesh2, textGeo, material;
             var firstLetter = true;
-            var text = "three.js",
+            var text = "Welcome",
                 height = 20,
                 size = 70,
                 hover = 30,
@@ -183,7 +194,11 @@
             function boolToNum( b ) {
                 return b ? 1 : 0;
             }
-
+            function updatePermalink() {
+                var link = hex + fontMap[ fontName ] + weightMap[ fontWeight ] + boolToNum( bevelEnabled ) + "#" + encodeURI( text );
+                permalink.href = "#" + link;
+                window.location.hash = link;
+            }
             function onDocumentKeyDown( event ) {
                 if ( firstLetter ) {
                     firstLetter = false;
