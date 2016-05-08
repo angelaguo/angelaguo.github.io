@@ -183,11 +183,7 @@
             function boolToNum( b ) {
                 return b ? 1 : 0;
             }
-            function updatePermalink() {
-                var link = hex + fontMap[ fontName ] + weightMap[ fontWeight ] + boolToNum( bevelEnabled ) + "#" + encodeURI( text );
-                permalink.href = "#" + link;
-                window.location.hash = link;
-            }
+
             function onDocumentKeyDown( event ) {
                 if ( firstLetter ) {
                     firstLetter = false;
