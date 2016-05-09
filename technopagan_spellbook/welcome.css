@@ -7,22 +7,88 @@
 }
 
 #background {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: black;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: 100%;
 
 }
 
-h2 {
+#navbar {
+    margin-left: 35%;
+    color: yellow;
+    font-family: monospace;
+    font-size: 20;
+    font-weight: bold;
+}
+
+h1 {
     font-family: "desdemona", "nyt-cheltenham", georgia, "times new roman", times, serif;
     font-size: 65px;
     font-style: italic;
     font-weight: 200;
+    color: green;
+    margin-left: 22%;
 }
 
+body {
+    background-color: #000;
+
+}
+
+a{
+    color: yellow;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p {
+    color: white;
+    font-family: monospace;
+    font-size: 12px;
+    margin-left: 30%;
+    margin-right:30%;
+    margin-top: 5%;
+}
+
+.button {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: yellow;
+    font-family: monospace;
+}
+
+img {
+    width: 350px;
+}
+
+#imageblock {
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.form-control{
+    width: 500px;
+}
+
+#home {
+    margin-left: 30%;
+    width: 530px;
+}
+
+.form-group{
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+label{
+    color: white;
+    font-family: monospace;
+}
+
+#submit{
+    margin-left: 42%;
+}
