@@ -5,6 +5,10 @@
         <title>* Welcome *</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="welcome.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <style>
             body {
                 font-family: Monospace;
@@ -21,7 +25,30 @@
                 z-index: 100;
                 display:block;
             }
-            #info a, .button { color: #000; font-weight: bold; text-decoration: underline; cursor: pointer }
+
+            #enter {
+                position: absolute;
+                top: 500px;
+                width: 100%;
+                text-align: center;
+                z-index: 100;
+                display:block;
+            }
+            
+            p {
+                margin-top: 50px;
+                margin-left: 350px;
+                margin-right: 350px;
+                color: #FFF;
+            }
+            #info a, .button { color: #000; font-weight: bold; cursor: pointer }
+
+            #enter a, #enter .button {
+                color: red;
+                font-family: Monospace;
+                font-weight: normal;
+            }
+
         </style>
     </head>
     <body>
@@ -36,6 +63,12 @@
             <a id="permalink" href="#">permalink</a>
         </div>
 
+        <div id="enter">
+        <a href="home.html">ENTER</a> 
+        <span class="button" onclick="toggleInstructionVisibility()" id="help">?</span>
+        <br/><br/><p class="help hidden">Click around the top of the page to change the appearance of the welcome message. Click and drag around
+        the middle to play with the welcome message. Start typing to change the welcome message. Click enter to enter...</p>
+        </div>
 
         <script src="../three.js-master/build/three.js"></script>
         <script src="../three.js-master/examples/js/utils/GeometryUtils.js"></script>
@@ -51,7 +84,7 @@
             var group, textMesh1, textMesh2, textGeo, material;
             var firstLetter = true;
             var text = "Welcome to the Technopagan Spellbook",
-                height = 10,
+                height = 20,
                 size = 40,
                 hover = 60,
                 curveSegments = 4,
